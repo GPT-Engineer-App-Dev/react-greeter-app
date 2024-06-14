@@ -30,6 +30,7 @@ const Protected = () => {
       <VStack spacing={4}>
         <Text fontSize="4xl" fontWeight="bold">Protected Content</Text>
         <Text fontSize="xl">This content is only accessible to authenticated users.</Text>
+        <Text fontSize="md">Welcome, {session.user.email}!</Text>
       </VStack>
     </Container>
   );
